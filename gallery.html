@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery Zoreda</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Asar&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css?v1">
+
+
+</head>
+
+<body>
+    <nav class="navbar" id="nav">
+        <div class="brand-title"><a href="index.html#head" data-scroll><img src="img/logo.png"
+                    class="logo-responsive"></a></div>
+        <a href="#nav" class="toggle-btn">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="index.html#home" data-scroll>inicio</a></li>
+                <li><a href="laempreza.html">la empresa</a></li>
+                <li class="responsive-display-none"><a href="index.html#head" data-scroll class="a-logo"><img
+                            src="img/logo.png" class="logo"></a>
+                </li>
+                <li><a href="gallery.html">galería</a></li>
+                <li><a href="contact.html">contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="invisible" id="top"></div>
+    <div class="gallery-section">
+        <h2 class="text-center headingFont">Galería</h2>
+        <!-- <hr> -->
+        <div class="container">
+            <div class="split second-split gallery-split">
+                <a href="gallery.html#banquetes">
+                    <div class="banq">
+                        <div class="gallery-img first-change-img"></div>
+                        <h3>Banquetes</h3>
+                    </div>
+                </a>
+                <a href="gallery.html#montajes">
+                    <div>
+                        <div class="gallery-img second-change-img"></div>
+                        <h3>Montajes de mesas</h3>
+                    </div>
+                </a>
+                <a href="gallery.html#lounge">
+                    <div>
+                        <div class="gallery-img third-change-img"></div>
+                        <h3>Salas Lounge</h3>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </div>
+    <hr class="longer-hr">
+
+    <div class="main-gallery-wrapper">
+        <div class="wrapper">
+            <h2 class="headingFont" id="banquetes">Banquetes</h2>
+            <div class="gallery">
+                <div class="image"><span><img class="lazy" data-src="https://i.ibb.co/JnMVC4N/1-min.jpg" alt=""></span>
+                </div>
+                <div class="image"><span><img class="lazy" data-src="https://i.ibb.co/TrGyx3Y/2-min.jpg" alt=""></span>
+                </div>
+                <div class="image"><span><img class="lazy" data-src="https://i.ibb.co/mcvpw4t/3-min.jpg" alt=""></span>
+                </div>
+                <div class="image"><span><img class="lazy" data-src="https://i.ibb.co/jZ3vh4C/4-min.jpg" alt=""></span>
+                </div>
+                <div class="image"><span><img class="lazy" data-src="https://i.ibb.co/QdwCBJD/5-1-min.jpg"></span>
+                </div>
+                <div class="image"><span><img class="lazy" data-src="https://i.ibb.co/s3Chhn5/5-min.jpg" alt=""></span>
+                </div>
+                <div class="image"><span><img class="lazy" data-src="https://i.ibb.co/HCPCk17/6-min.jpg" alt=""></span>
+                </div>
+                <div class="image"><span><img class="lazy" data-src="https://i.ibb.co/rF32MNm/7-min.jpg" alt=""></span>
+                </div>
+                <div class="image"><span><img class="lazy" data-src="https://i.ibb.co/fSDm0z9/8-min.jpg" alt=""></span>
+                </div>
+                <div class="image"><span><img class="lazy" data-src="https://i.ibb.co/SK9D2Sn/9-min.jpg" alt=""></span>
+                </div>
+                <div class="image"><span><img class="lazy" data-src="https://i.ibb.co/tH50NnG/10-min.jpg" alt=""></span>
+                </div>
+                <div class="image"><span><img class="lazy" data-src="https://i.ibb.co/FWxD1ZZ/11-min.jpg" alt=""></span>
+                </div>
+                <div class="image"><span><img class="lazy" data-src="https://i.ibb.co/pjhnV1m/12-min.jpg" alt=""></span>
+                </div>
+                <div class="image"><span><img class="lazy" data-src="https://i.ibb.co/gPf3VKf/13-min.jpg" alt=""></span>
+                </div>
+            </div>
+        </div>
+        <div class="preview-box">
+            <div class="details">
+                <span class="title">Image <p class="current-img"></p> of <p class="total-img"></p></span>
+                <span class="icon fas fa-times"></span>
+            </div>
+            <div class="image-box">
+                <div class="slide prev"><i class="fas fa-angle-left"></i></div>
+                <div class="slide next"><i class="fas fa-angle-right"></i></div>
+                <img src="" alt="">
+            </div>
+        </div>
+        <div class="shadow"></div>
+    </div>
+    <hr class="longer-hr">
+    <div class="main-gallery-wrapper">
+        <div class="wrapper">
+            <div class="opacity-none" id="montajes"></div>
+            <h2 class="headingFont text-right">Montajes de mesas</h2>
+            <div class="gallery">
+                <div class="image"><span><img class="lazy" data-src="https://i.ibb.co/zJYbDzB/1-min.jpg" alt=""></span>
+                </div>
+                <div class="image"><span><img class="lazy" data-src="https://i.ibb.co/Vqv4q5b/3-min.jpg" alt=""></span>
+                </div>
+                <div class="image"><span><img class="lazy" data-src="https://i.ibb.co/WxD0Qn7/4-min.jpg" alt=""></span>
+                </div>
+                <div class="image"><span><img class="lazy" data-src="https://i.ibb.co/tPqKZP8/6-min.jpg" alt=""></span>
+                </div>
+                <div class="image"><span><img class="lazy" data-src="https://i.ibb.co/sHfkYMn/7-min.jpg" alt=""></span>
+                </div>
+                <div class="image"><span><img class="lazy" data-src="https://i.ibb.co/JmXqqBp/8-min.jpg" alt=""></span>
+                </div>
+                <div class="image"><span><img class="lazy" data-src="https://i.ibb.co/qJvryK6/9-min.jpg" alt=""></span>
+                </div>
+                <div class="image"><span><img class="lazy" data-src="https://i.ibb.co/3YZd5Py/10-min.jpg" alt=""></span>
+                </div>
+                <div class="image"><span><img class="lazy" data-src="https://i.ibb.co/dgLsNgN/11-min.jpg" alt=""></span>
+                </div>
+                <div class="image"><span><img class="lazy" data-src="https://i.ibb.co/jDpPxZw/12-min.jpg" alt=""></span>
+                </div>
+                <div class="image"><span><img class="lazy" data-src="https://i.ibb.co/jgkZ28F/13-min.jpg" alt=""></span>
+                </div>
+                <div class="image"><span><img class="lazy" data-src="https://i.ibb.co/DpwvhZq/14-min.jpg" alt=""></span>
+                </div>
+                <div class="image"><span><img class="lazy" data-src="https://i.ibb.co/sJkc7KD/15-min.jpg" alt=""></span>
+                </div>
+                <div class="image"><span><img class="lazy" data-src="https://i.ibb.co/ZgnMQ5N/16-min.jpg" alt=""></span>
+                </div>
+                <div class="image"><span><img class="lazy" data-src="https://i.ibb.co/wgdy2q1/17-min.jpg" alt=""></span>
+                </div>
+                <div class="image"><span><img class="lazy" data-src="https://i.ibb.co/wcQMKxR/18-min.jpg" alt=""></span>
+                </div>
+                <div class="image"><span><img class="lazy" data-src="https://i.ibb.co/C7vn61Q/19-min.jpg" alt=""></span>
+                </div>
+                <div class="image"><span><img class="lazy" data-src="https://i.ibb.co/ctRQkkJ/20-min.jpg" alt=""></span>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="preview-box">
+            <div class="details">
+                <span class="title">Image <p class="current-img"></p> of <p class="total-img"></p></span>
+                <span class="icon fas fa-times"></span>
+            </div>
+            <div class="image-box">
+                <div class="slide prev"><i class="fas fa-angle-left"></i></div>
+                <div class="slide next"><i class="fas fa-angle-right"></i></div>
+                <img src="" alt="">
+            </div>
+        </div>
+        <div class="shadow"></div>
+    </div>
+    <hr class="longer-hr">
+    <div class="main-gallery-wrapper">
+        <div class="wrapper">
+            <div class="opacity-none" id="lounge"></div>
+            <h2 class="headingFont">Salas Lounge</h2>
+
+            <div class="gallery">
+                <div class="image"><span><img class="lazy" data-src="https://i.ibb.co/z2BVXv9/1-min.jpg" alt=""></span>
+                </div>
+                <div class="image"><span><img class="lazy" data-src="https://i.ibb.co/0QgjkP8/2-min.jpg" alt=""></span>
+                </div>
+                <div class="image"><span><img class="lazy" data-src="https://i.ibb.co/PQZvm9G/3-min.jpg" alt=""></span>
+                </div>
+                <div class="image"><span><img class="lazy" data-src="https://i.ibb.co/ykc5M70/4-min.jpg" alt=""></span>
+                </div>
+                <div class="image"><span><img class="lazy" data-src="https://i.ibb.co/WpGsw52/5-min.jpg" alt=""></span>
+                </div>
+                <div class="image"><span><img class="lazy" data-src="https://i.ibb.co/Vw9RnRS/6-min.jpg" alt=""></span>
+                </div>
+                <div class="image"><span><img class="lazy" data-src="https://i.ibb.co/B2g9V7z/7-min.jpg" alt=""></span>
+                </div>
+
+            </div>
+        </div>
+        <div class="preview-box">
+            <div class="details">
+                <span class="title">Image <p class="current-img"></p> of <p class="total-img"></p></span>
+                <span class="icon fas fa-times"></span>
+            </div>
+            <div class="image-box">
+                <div class="slide prev"><i class="fas fa-angle-left"></i></div>
+                <div class="slide next"><i class="fas fa-angle-right"></i></div>
+                <img src="" alt="">
+            </div>
+        </div>
+        <div class="shadow"></div>
+    </div>
+
+    <br>
+    <br>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>
+                        Síguenos</h4>
+                    <hr>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/banquetescastellanoszoreda/" target="_blank"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/Banquetescastellanos/" target="_blank"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <!-- <a href="https://twitter.com/banquetescazo" target="_blank"><i class="fab fa-twitter"></i></a> -->
+
+                        <a href="https://www.linkedin.com/in/banquetes-castellanos-zoreda-5566608b/" target="_blank"><i
+                                class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>Copyright &copy Castellanos Zoreda 2021.</p>
+                    <p>Created by <a href="https://nikola93kg.github.io" target="_blank">nikola93kg</a> </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+        //getting all required elements
+        const gallery = document.querySelectorAll(".image"),
+            previewBox = document.querySelector(".preview-box"),
+            previewImg = previewBox.querySelector("img"),
+            closeIcon = previewBox.querySelector(".icon"),
+            currentImg = previewBox.querySelector(".current-img"),
+            totalImg = previewBox.querySelector(".total-img"),
+            shadow = document.querySelector(".shadow");
+
+        window.onload = () => {
+            for (let i = 0; i < gallery.length; i++) {
+                totalImg.textContent = gallery.length; //passing total img length to totalImg variable
+                let newIndex = i; //passing i value to newIndex variable
+                let clickedImgIndex; //creating new variable
+
+                gallery[i].onclick = () => {
+                    clickedImgIndex = i; //passing cliked image index to created variable (clickedImgIndex)
+                    function preview() {
+                        currentImg.textContent = newIndex + 1; //passing current img index to currentImg varible with adding +1
+                        let imageURL = gallery[newIndex].querySelector("img").src; //getting user clicked img url
+                        previewImg.src = imageURL; //passing user clicked img url in previewImg src
+                    }
+                    preview(); //calling above function
+
+                    const prevBtn = document.querySelector(".prev");
+                    const nextBtn = document.querySelector(".next");
+                    if (newIndex == 0) { //if index value is equal to 0 then hide prevBtn
+                        prevBtn.style.display = "none";
+                    }
+                    if (newIndex >= gallery.length - 1) { //if index value is greater and equal to gallery length by -1 then hide nextBtn
+                        nextBtn.style.display = "none";
+                    }
+                    prevBtn.onclick = () => {
+                        newIndex--; //decrement index
+                        if (newIndex == 0) {
+                            preview();
+                            prevBtn.style.display = "none";
+                        } else {
+                            preview();
+                            nextBtn.style.display = "block";
+                        }
+                    }
+                    nextBtn.onclick = () => {
+                        newIndex++; //increment index
+                        if (newIndex >= gallery.length - 1) {
+                            preview();
+                            nextBtn.style.display = "none";
+                        } else {
+                            preview();
+                            prevBtn.style.display = "block";
+                        }
+                    }
+                    document.querySelector("body").style.overflow = "hidden";
+                    previewBox.classList.add("show");
+                    shadow.style.display = "block";
+                    closeIcon.onclick = () => {
+                        newIndex = clickedImgIndex; //assigning user first clicked img index to newIndex
+                        prevBtn.style.display = "block";
+                        nextBtn.style.display = "block";
+                        previewBox.classList.remove("show");
+                        shadow.style.display = "none";
+                        document.querySelector("body").style.overflow = "scroll";
+                    }
+                }
+
+            }
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
+    <script
+        src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0/dist/smooth-scroll.polyfills.min.js"></script>
+    <script
+        src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#top"]');
+        var scroll = new SmoothScroll('a[href*="#banquetes"]');
+        var scroll = new SmoothScroll('a[href*="#montajes"]');
+        var scroll = new SmoothScroll('a[href*="#lounge"]');
+
+    </script>
+    <!-- Lazy Loader -->
+    <!-- jsDeliver -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.lazy/1.7.9/jquery.lazy.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.lazy/1.7.9/jquery.lazy.plugins.min.js"></script>
+
+    <!-- cdnjs -->
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.min.js"></script>
+    <script type="text/javascript"
+        src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.plugins.min.js"></script>
+
+    <script>
+        $('.lazy').Lazy({
+
+            scrollDirection: 'vertical',
+            effect: 'fadeIn',
+            visibleOnly: true,
+            onError: function (element) {
+                console.log('error loading ' + element.data('src'));
+            }
+        });
+    </script>
+
+</body>
+
+</html>
